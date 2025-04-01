@@ -1,0 +1,7 @@
+INFO:root:Connection attempt from: 172.21.154.196
+2025-04-02 03:37:59,472 - Honeypot server started on port 8080
+2025-04-02 03:39:04,176 - Honeypot server started on port 8080
+INFO:root:Connection attempt from: 172.21.154.196
+INFO:root:Connection attempt from: 172.21.154.196
+2025-04-02 03:47:06,950 - Connection attempt from: 172.21.154.196
+2025-04-02 03:50:12,821 - Connection attempt from: 172.21.154.196
