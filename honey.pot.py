@@ -11,9 +11,9 @@ logging.basicConfig(filename='honeypot_log.txt', level=logging.INFO, format='%(a
 
 def send_email_alert(subject, body):   # Email alert function (replace with your own email credentials)
 
-    sender_email = "deoreyash2020@gmail.com"  # Replace with your email
-    receiver_email = "deoreyash2020@gmail.com"  # Replace with recipient email
-    password = "Deore@yash20"  # Replace with your email password
+    sender_email = "deoreyash20@gmail.com"  # Replace with your email
+    receiver_email = "deoreyash20@gmail.com"  # Replace with recipient email
+    password = "Demo@try1"  # Replace with your email password
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
