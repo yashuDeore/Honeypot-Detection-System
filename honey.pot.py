@@ -11,8 +11,8 @@ logging.basicConfig(filename='honeypot_log.txt', level=logging.INFO, format='%(a
 
 def send_email_alert(subject, body):   # Email alert function (replace with your own email credentials)
 
-    sender_email = "deoreyash20@gmail.com"  # Replace with your email
-    receiver_email = "deoreyash20@gmail.com"  # Replace with recipient email
+    sender_email = "youremail@gmail.com"  # Replace with your email
+    receiver_email = "youremail@gmail.com"  # Replace with recipient email
     password = "Demo@try1"  # Replace with your email password
 
     msg = MIMEMultipart()
@@ -61,3 +61,4 @@ def start_honeypot():   # Set up the honeypot server
 # Start honeypot
 if __name__ == "__main__":
     start_honeypot()
+
